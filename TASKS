@@ -1,0 +1,28 @@
+tasks={}
+
+def addTask():
+    name= input("Enter name :- ")
+    tid=input("Enter Id:- ")
+    status=input("Enter Status :- ")
+    tasks["Name"]=name;
+    tasks["ID"]=tid;
+    tasks["Status"]=status;
+addTask()
+
+tasks
+
+def update():
+    ctid=input("Enter new id:- ")
+    cstatus=input("Enter changed status:- ")
+    tasks["ID"]=ctid;
+    tasks["Status"]= cstatus;
+    
+update()
+
+
+tasks
+
+def display():
+    print(tasks)
+
+display()
